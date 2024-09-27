@@ -2,7 +2,8 @@ const saludo = (nombre = "Usuario") => {
     console.log(`Holaaa ${nombre}`);
 }
 
-saludo("Diego")
+saludo("Diego");
+saludo(5);
 
 function sum(...theArgs) {
     let total = 0;
